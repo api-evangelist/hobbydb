@@ -1,7 +1,12 @@
 aid: hobbydb
 name: hobbyDB
-description: hobbyDB is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: hobbyDB is a database and marketplace for collectibles — a platform that
+  lets anyone catalog, offer, buy, and sell just about any collectible (Funko Pops,
+  action figures, trading cards, die-cast, and more) at any time, from anywhere, in
+  auction-style or fixed-price formats. It pairs a community-curated reference database
+  of collectible items and variants with personal collection-management tools (lists,
+  condition and grading tracking, pre-orders, trades, and import/export) and a peer-to-peer
+  marketplace for transactions between collectors. hobbyDB is a Techstars-backed company.
 url: https://raw.githubusercontent.com/api-evangelist/hobbydb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Collectibles
+- Marketplace
+- Database
+- Collections
+- Ecommerce
+- Auctions
+- Community
+image: https://images.hobbydb.com/processed_uploads/market/logo/1/1733769842-158379384103007-0004-6756/hobbyDB_Logo.svg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://hobbydb.com/
+- type: Blog
+  url: https://blog.hobbydb.com/
+- type: HelpCenter
+  url: https://help.hobbydb.com/
+- type: Pricing
+  url: https://www.hobbydb.com/marketplaces/hobbydb/subscriptions
+- type: SignUp
+  url: https://www.hobbydb.com/marketplaces/hobbydb/users/sign_up
+- type: Login
+  url: https://www.hobbydb.com/marketplaces/hobbydb/users/sign_in
+- type: TermsOfService
+  url: https://help.hobbydb.com/support/solutions/articles/36000264473-terms-conditions
+- type: PrivacyPolicy
+  url: https://help.hobbydb.com/support/solutions/articles/36000268817
+- type: DomainSecurity
+  url: security/hobbydb-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
