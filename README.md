@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hobbyDB is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+hobbyDB is a database and marketplace for collectibles — a platform that lets anyone catalog, offer, buy, and sell just about any collectible (Funko Pops, action figures, trading cards, die-cast, and more) at any time, from anywhere, in auction-style or fixed-price formats. It pairs a community-curated reference database of collectible items and variants with personal collection-management tools (lists, condition and grading tracking, pre-orders, trades, and import/export) and a peer-to-peer marketplace for transactions between collectors. hobbyDB is a Techstars-backed company.
 
-Backed by: techstars — https://hobbydb.com/
+**Areas:** Company · Collectibles · Marketplace · Database · Collection · E-Commerce · Auctions · Community
+
+## hobbyDB on APIs.io
+
+Everything profiled for hobbyDB is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hobbydb/](https://apis.io/providers/hobbydb/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hobbydb Domain Security](https://apis.io/security/hobbydb/hobbydb-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hobbydb.com/)
+- [Pricing](https://www.hobbydb.com/marketplaces/hobbydb/subscriptions)
+- [Sign up](https://www.hobbydb.com/marketplaces/hobbydb/users/sign_up)
+- [Blog](https://blog.hobbydb.com/)
+- [Terms of service](https://help.hobbydb.com/support/solutions/articles/36000264473-terms-conditions)
+- [Privacy policy](https://help.hobbydb.com/support/solutions/articles/36000268817)
+
+## API Evangelist rating
+
+**Kin Score 14.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hobbydb/](https://apis.io/providers/hobbydb/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for hobbyDB: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hobbydb/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
